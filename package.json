@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "css": "npx @tailwindcss/cli -i ./src/app.css -o ./public/app.css --watch",
+    "build": "npx @tailwindcss/cli -i ./src/app.css -o ./public/app.css", 
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.13",
+    "tailwindcss": "^4.1.13",
+    "wrangler": "^4.40.0"
+  }
+}
